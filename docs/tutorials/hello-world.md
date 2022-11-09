@@ -2,12 +2,14 @@
 title: "Hello World!"
 description: "Getting started using the BDK library in a very simple Rust project"
 authors:
-    - Alekos Filini
+    "- Alekos Filini"
 date: "2020-12-18"
 tags: ["getting started", "rust"]
-permalink: "/blog/2020/12/hello-world/"
+# permalink: "/blog/2020/12/hello-world/"
 ---
 
+# {{ $frontmatter.title }}
+By [Alekos Filini](/blog/author/Alekos%20Filini/) on {{ $frontmatter.date }}
 ## Introduction
 
 This article should serve as a "getting started" guide for developers who are considering integrating BDK in their projects: it tries to introduce the reader to the basic concepts behind the library and some of its modules and components that can be used to build a very simple functioning Bitcoin wallet. All the information written in this article are valid for the latest [published version](https://docs.rs/bdk/latest/bdk/).

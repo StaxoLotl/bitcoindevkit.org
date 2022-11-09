@@ -7,7 +7,8 @@ date: "2022-08-05"
 tags: ["bitcoin", "React Native", "iOS", "Android", "mobile", "bdk-rn", "bdk", "tutorial", "guide", "wallet"]
 ---
 
-## Introduction
+## {{ $frontmatter.title }}
+By [Bitcoin Zavior](/blog/author/Bitcoin%20Zavior/) on {{  $frontmatter.date }}
 
 `bdk-rn` is the **Bitcoin Dev kit**'s **React Native** library which enables building bitcoin applications for Android and iOS mobile platforms. Using `bdk-rn` does not require knowledge of the underlying bitcoin or BDK API. Using `bdk-rn` is similar to using any other RN module. Just do `yarn add bdk-rn` and you are ready to code!  This is the first tutorial on how to use `bdk-rn`, more coming soon, make sure to [follow](https://twitter.com/BitcoinZavior?ref_src=twsrc%5Etfw) to be notified of new ones. In case you missed it, there is a recorded `bdk-rn` focused Twitch Livestream available on the [Bitcoin Developers](https://www.youtube.com/watch?v=gMpWA875go4) YouTube channel which covers most of this article, make sure to subscribe to Bitcoin Developers [YouTube Channel](https://www.youtube.com/channel/UCUq_ZdezVWKPvkWRicAYxLA/videos) for more bitcoin development videos.
 

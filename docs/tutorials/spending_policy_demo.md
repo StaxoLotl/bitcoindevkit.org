@@ -8,7 +8,8 @@ date: "2021-02-23"
 tags: ["guide", "descriptor"]
 ---
 
-## Introduction
+## {{ $frontmatter.title }}
+By [Steve Myers](/blog/author/Steve%20Myers/), [thunderbiscuit](/blog/author/thunderbiscuit/) on {{ $frontmatter.date }}
 
 In this post we will use the [bdk-cli](https://github.com/bitcoindevkit/bdk-cli) tool to demonstrate how to use the [bdk](https://github.com/bitcoindevkit/bdk) library to:
 

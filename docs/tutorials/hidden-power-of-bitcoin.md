@@ -10,7 +10,8 @@ hidden: true
 draft: false
 ---
 
-## Introduction
+## {{ $frontmatter.title }}
+By [Sandipan Dey](/blog/author/Sandipan%20Dey/), [Rajarshi Maitra](/blog/author/Rajarshi%20Maitra/) on {{ $frontmatter.date }}
 
 To send people BTC - we simply scan a QR Code *(or paste an address)*, enter some amount and *whoosh* - sent!
 Users might think, just like traditional currency, we can only exchange money using Bitcoin.

@@ -47,15 +47,21 @@ const tutorialSidebar = [
     title: 'Tutorials',
     collapsable: false,
     children: [
-      '/tutorials/hello-world',
-      '/tutorials/Bitcoin_Core_RPC_Demo',
-      '/tutorials/compact_filters_demo',
-      '/tutorials/descriptors_in_the_wild',
-      '/tutorials/hidden-power-of-bitcoin',
-      '/tutorials/descriptor_based_paper_wallet',
-      '/tutorials/spending_policy_demo',
-      '/tutorials/exploring_bdk_rn',
-      '/tutorials/getting_started_with_rust_hwi'
+      ['/tutorials/hello-world', 'Hello World'],
+      {
+        title: 'BITCOIN Dev Kit',
+        collapsable: false,
+        children: [
+          '/tutorials/getting_started_with_rust_hwi',
+          '/tutorials/exploring_bdk_rn',
+          '/tutorials/hidden-power-of-bitcoin',
+          '/tutorials/Bitcoin_Core_RPC_Demo',
+          '/tutorials/compact_filters_demo',
+          '/tutorials/descriptor_based_paper_wallet',
+          '/tutorials/spending_policy_demo',
+          '/tutorials/descriptors_in_the_wild',
+        ],
+      },
     ],
   }
 ]
@@ -85,7 +91,7 @@ module.exports = {
   themeConfig: {
     domain: baseUrl,
     logo: '/img/logo.svg',
-    displayAllHeaders: false,
+    displayAllHeaders: true,
     repo: 'bitcoindevkit/bitcoindevkit.org',
     docsDir: 'docs',
     editLinks: true,

@@ -9,7 +9,9 @@ hidden: true
 draft: false
 ---
 
-## Introduction
+## {{ $frontmatter.title }}
+By [Rajarshi Maitra](/blog/author/Rajarshi%20Maitra/) on {{ $frontmatter.date }}
+
 BDK wallet developer library can be used to easily deploy wallets with various kinds of blockchain backend support, like [`electrum`](https://github.com/romanz/electrs), [`esplora`](https://github.com/Blockstream/esplora), `compact-filters` ([BIP157](https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki)) etc. With the latest release of BDK [`v0.10.0`](https://github.com/bitcoindevkit/bdk/releases/tag/v0.10.0), BDK now supports Bitcoin Core as a blockchain backend. BDK talks with Bitcoin Core using rust-bitcoin's [bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) library.
 
 This allows wallet devs to quickly deploy their wallet that can talk to a bitcoin full node (home raspi nodes) out of the box. Wallet devs don't need to worry about connecting to a full node with correct RPC calls, all of that is handled by BDK under the hood. All they need is to identify the full node's RPC IP address and the correct RPC credentials.

@@ -7,7 +7,8 @@ date: "2021-06-20"
 tags: ["tutorial", "BDK", "bdk-cli", "compact_filters", "BIP157", "Neutrino"]
 ---
 
-## Introduction
+## {{ $frontmatter.title }}
+By [Rajarshi Maitra](/blog/author/Rajarshi%20Maitra/) on {{ $frontmatter.date }}
 
 ### Compact Filters:
 Compact filters are the latest specification of Bitcoin SPV node implementation as per [BIP157](https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki) and [BIP158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki). Such light clients were envisioned by Satoshi himself in  his original white paper, but due to lack of robust privacy and trust guarantees using conventional [bloomfilters](https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki), these type of nodes never got popular.

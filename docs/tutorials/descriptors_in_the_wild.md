@@ -7,7 +7,8 @@ date: "2020-11-18"
 tags: ["guide", "descriptor"]
 ---
 
-## Introduction
+## {{ $frontmatter.title }}
+By [Gabriele Domenichini](/blog/author/Gabriele%20Domenichini/) on {{ $frontmatter.date }}
 
 I have tried to setup a 2 of 2 multi signature infrastructure with two
 different wallets, which know nothing about each other, but are compliant with

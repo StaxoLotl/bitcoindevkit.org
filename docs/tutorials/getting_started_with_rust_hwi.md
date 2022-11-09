@@ -9,6 +9,8 @@ hidden: true
 draft: false
 ---
 
+## {{ $frontmatter.title }}
+By [Wszdexdrf](/blog/author/Wszdexdrf/) on {{ $frontmatter.date }}
 ## Introduction
 
 [bitcoindevkit/rust-hwi](https://github.com/bitcoindevkit/rust-hwi) is a sub-project for [bitcoindevkit](https://bitcoindevkit.org/) (BDK) which is used to interact with hardware wallets using the Rust programming language. It is a wrapper around [bitcoin-core/HWI](https://github.com/bitcoin-core/HWI) and its behaviour is closely linked with the same.
